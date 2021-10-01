@@ -17,6 +17,14 @@ main .wrap {
   margin: 0 auto;
 }
 
+main .contain {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
 h1 {
   font-size: 1.5em;
   margin-bottom: 40px;
