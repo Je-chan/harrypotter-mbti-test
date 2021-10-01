@@ -53,7 +53,7 @@ export default {
       right: 0;
       background: #f9c4d2;
       border-radius: inherit;
-      box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+      box-shadow: 0 0 0 2px #b18597;
       transform: translate3d(0, .75em, -1em);
       transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
     }
@@ -64,11 +64,11 @@ export default {
     &.blue {
       display: block;
       margin-bottom: 29px;
-      padding: 1.8em;
+      padding: 1.2em;
       border-color: #8599b1;
       background: #fefefe  ;
       &::before {
-        box-shadow: 0 0 0 2px #8599b1, 0 0.625em 0 0 #e2efff;
+        box-shadow: 0 0 0 2px #8599b1;
         background: #c4d8f9;
       }
     }

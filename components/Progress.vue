@@ -23,11 +23,13 @@ export default {
     margin: 50px 0;
   } 
   .page {
-    font-size: 14px;
+    font-size: 16px;
+    color: #fff;
   }
   .gauge {
     margin-top: 10px;
     height: 10px;
-    background: cornflowerblue;
+    background: rgb(99, 99, 202);
+    box-shadow: 0 0 10px #fff;
   }
 </style>

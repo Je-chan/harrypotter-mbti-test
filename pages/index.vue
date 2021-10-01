@@ -1,10 +1,9 @@
 <template>
   <!-- 인트로 페이지 -->
   <main v-if="page===0">
-    <img src="" alt="원피스 캐릭터들">
-    <h1>나와 닮은 원피스 캐릭터 찾기</h1>
-    <h2>나와 닮은 원피스 캐릭터는 누구일까요?</h2>
-    <Button text="테스트 시작!" :clickEvent="startTest"/>
+    <img src="/poster.jpeg" alt="해리포터" class="poster">
+    <h1>나와 닮은 해리포터 캐릭터 찾기</h1>
+    <Button text="Test start" :clickEvent="startTest"/>
   </main>
 
   <!-- 질문 페이지 -->

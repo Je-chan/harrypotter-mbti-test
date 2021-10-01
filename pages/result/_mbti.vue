@@ -94,7 +94,7 @@ export default {
           dexcription: ""
         },
         enfj: {
-          img: "/enfj.jpeg",
+          img: "/enfj.png",
           title: "릴리 에번스 포터",
           dexcription: ""
         },
