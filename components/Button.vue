@@ -64,7 +64,7 @@ export default {
     &.blue {
       display: block;
       margin-bottom: 29px;
-      padding: 1.2em;
+      padding: 1em;
       border-color: #8599b1;
       background: #fefefe  ;
       &::before {

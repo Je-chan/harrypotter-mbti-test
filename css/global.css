@@ -1,3 +1,35 @@
+/* body {
+  background: no-repeat url(/hogwarts.jpg);
+  background-size: cover;
+}
+
+main {
+  padding: 50px 0 100px;
+  width: 100%;
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+img {
+  width: inherit;
+  width: 25vw;
+  height: 60vh;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 40px;
+  text-align: left;
+} */
+
 body {
   background: no-repeat url(/hogwarts.jpg);
   background-size: cover;

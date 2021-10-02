@@ -7,10 +7,8 @@
   </main>
 
   <!-- 질문 페이지 -->
-  <main v-else-if="page <= 12">
-    <div class="wrap">
-      <Question />
-    </div>
+  <main class="question" v-else-if="page <= 12">
+    <Question />
   </main>
 
 </template>
@@ -38,3 +36,16 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+main.question {
+  padding: 50px 0 100px;
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+</style>
