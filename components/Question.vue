@@ -39,7 +39,7 @@ export default {
           name: 'result-mbti', 
           // route돼서 result/params 이 params 안에 내용이 담기게 된다
           params: {
-            mbti: `${result.e ? "e" : "i"}${result.n ? "n" : "s"}${result.f ? "f" : "t"}${result.j ? "j" : "p"}`
+            mbti: `${result.e > 1 ? "e" : "i"}${result.n > 1 ? "n" : "s"}${result.f > 1 ? "f" : "t"}${result.j > 1 ? "j" : "p"}`
           }
         })
       }
